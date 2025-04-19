@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Study Materials</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!--Header start-->
+<div class="logo-img">
+    <img class="logo" align="left" src="Ad Astra(logo)-final.png">
+</div>
+<div class="user-info">
+    <span class="profile-icon">👤</span>
+    <span>Username</span>
+</div>
+<div class="nav">
+    <ul>
+        <li><button id="dashboardBT" class="nav_bt">Dashboard</button></li>
+        <li><button id="academicsBT" class="nav_bt">Academics</button></li>
+        <li><button id="ttBT" class="nav_bt">Time Table</button></li>
+        <li><button id="materialsBT" class="nav_bt">Materials</button></li>
+        <li><button id="feeBT" class="nav_bt">Fee Details</button></li>
+        <li style="float:right"><button id="logoutButton" class="nav_bt">Logout</button></li>
+    </ul>
+</div>
+<br>
+<!--Header End-->
+
+<div class="form-container">
+    <div class="form-group">
+        <label for="std">Standard</label>
+        <input type="text" id="std" placeholder="Enter Standard">
+    </div>
+    <div class="form-group">
+        <label for="sub">Subject</label>
+        <input type="text" id="sub" placeholder="Enter Subject">
+    </div>
+    <!-- Added ID to the Go button -->
+    <button id="goButton" class="go-button">Go</button>
+</div>
+
+<canvas class="container" id="myCanvas" width="900" height="500"> Material</canvas>
+
+<script defer src="js/materials.js"></script>
+
+</body>
+</html>

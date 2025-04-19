@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!--Header start-->
+<div class="logo-img">
+    <img class="logo" align="left" src="Ad Astra(logo)-final.png">
+</div>
+<div class="user-info">
+    <span class="profile-icon">👤</span>
+    <p id="usernameDisplay"></p> <!-- Display username here -->
+</div>
+<div class="nav">
+    <ul>
+        <li><button id="dashboardBT" class="nav_bt">Dashboard</button></li>
+        <li><button id="academicsBT" class="nav_bt">Academics</button></li>
+        <li><button id="ttBT" class="nav_bt">Time Table</button></li>
+        <li><button id="materialsBT" class="nav_bt">Materials</button></li>
+        <li><button id="feeBT" class="nav_bt">Fee Details</button></li>
+        <li style="float:right"><button id="logoutButton" class="nav_bt">Logout</button></li>
+    </ul>
+</div>
+<br>
+<!--Header End-->
+<div class="container">
+    <div class="welcome-section">
+        <h1 id="welcomeMessage" style="color:black">Welcome, </h1>
+    </div><hr><br>
+    <div class="Std_info">
+        <div class="Std_Details">
+            <p id="hallTicket">Hall Ticket: </p><br>
+            <p id="fatherName">Father's Name: </p><br>
+            <p id="motherName">Mother's Name: </p><br>
+            <p id="attendance">Attendance: </p><br>
+            <p id="class">Class: </p><br>
+            <p id="section">Section: </p>
+        </div>
+        <div class="profile-picture">
+            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Profile Picture">
+        </div>
+    </div>
+</div>
+<script defer src="js/dashboard.js"></script>
+</body>
+</html>

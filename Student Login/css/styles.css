@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: #333;
+}
+
+.nav {
+	border-radius:10px;
+    padding: 1em;
+    text-align: center;
+}
+
+.nav_bt{
+	background-color: #9470D8;
+	color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.container,
+.content {
+    background-color: #9470D8;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+	justify-content: flex;
+}
+
+.container h2,
+.content h2 {
+    color: #333;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: white;
+	color:black;
+}
+	
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9470D8;
+}
+
+ul li {
+	float: left;
+}
+
+ul li a {
+    display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: white;
+  color:black;
+}
+
+table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: black;
+            border: 2px solid #dee2e6;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            border: 1px solid #dee2e6;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+        }
+
+        .highlight {
+            background-color: black;
+        }
+
+        .special {
+            background-color: black;
+        }
+.loginform{
+	align-content:center;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=password], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.logo{
+	height:20%;
+	width:20%;
+	
+}
+.header_bg {
+    background: black;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+
+body {
+            background-color: black;
+            color: white;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            min-height: 100vh;
+            margin: 0;
+}
+
+.container {
+            background-color: #9470D8;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 800px;
+			justify-content: flex;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info .profile-icon {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.welcome-section h1 {
+    margin:  0;
+}
+
+.welcome-section p {
+    margin: 0;
+    font-size: 18px;
+}
+.Std_info{
+	display:flex;
+	justify-content:space-between;
+}
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+	justify-content:flex;
+	float:right;
+}
+
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+.nav{
+width:100%
+
+
+}
+.user-info{
+position: absolute;
+  right: 0px;}
+.logo{
+width:10%;
+height:10%;
+}
+.content-1 {
+            display: flex;
+            gap: 40px;
+        }
+
+        .box {
+            background-color: #9470D8;
+            padding: 40px;
+            border-radius: 10px;
+            flex: 2;
+			height:400px;
+			width:400px;
+        }
+
+        .box h2 {
+            margin-bottom: 10px;
+			color:black;
+        }
+
+        .box p {
+            margin: 0;
+        }
+.form-container {
+            background-color: #9470D8;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .go-button {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius : 5px;
+            cursor: pointer;
+			width:100px;
+			height:50px;
+        }
+
+        .go-button:hover {
+            background-color: white;
+			color:black;
+        }
+
+.table-container {
+  background-color: #9470D8;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width:90%
+}
+
+.fee-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fee-details .row {
+  display: flex;
+  align-items: center;
+  justify-content: space- between;
+  width: 100%;
+  margin: 10px 0;
+}
+.fee-details .row .label {
+  flex: 1;
+}
+.fee-details .row .due {
+  flex: 1;
+  text-align: center;
+}
+.fee-details .row .amount {
+  flex: 1;
+  text-align: center;
+}
+.fee-details .row .payment {
+  flex: 1;
+  text-align: center;
+}

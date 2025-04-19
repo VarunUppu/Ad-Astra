@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+	<script src="js/login.js" defer></script>
+    <title>Student Login</title>
+</head>
+<body>
+	<div class="header_section header_bg">
+		<center><a href="..\index.html"><img class="logo" src="../images/Ad Astra(logo)-final.png"></a></center>
+     </div>
+    <div class="container">
+		<img src="Back.png" id="back" height="5%" width="5%" style="cursor:pointer;">
+	<center>
+        <h1>Student Login</h1><br><br>
+        <form id="loginForm">
+        <input type="text" id="username" placeholder="Username" required><br><br>
+        <input type="password" id="password" placeholder="Password" required><br><br>
+        <button type="submit" id="message">Login</button><br><br>
+		<sup>*click on the logo to go back</sup>
+    </form>
+	</center>
+    </div>
+<script>
+    // Get the image element
+    const image = document.getElementById('back');
+
+    // Add a click event listener to the image
+    image.addEventListener('click', function() {
+        // Navigate to the target page
+        window.location.href = '../index.html'; // Replace with your target URL
+    });
+</script>
+</body>
+</html>
